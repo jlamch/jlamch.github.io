@@ -1,0 +1,104 @@
+.aboutme{
+background-color: rgba(211, 198, 211, 0.767);
+}
+.aboutme h4{
+ text-align: center;
+}
+
+.jlshadow{
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(158, 106, 192), 0 0 0.2em rgb(102, 15, 114)
+}
+
+/* social banner */
+
+/* .banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+} */
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/* blogs */
+
+.callout {
+    display: table;
+    width: 80%;
+    height: 300px;
+    /* color: #fff; */
+    /* background: url(../img/blue-chakboard.png) no-repeat center center scroll; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.blog-portfolio{
+    margin-top: 300px;
+}
+.blog-portfolio-header{
+    margin-top: -250px;}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
