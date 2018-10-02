@@ -10,7 +10,7 @@ url: ""
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/wordcloud.png
+parallax_image_two: assets/images/wordcloud_transparent.png
 
 project_one: WebAssembly and .NET
 project_one_description: some description
