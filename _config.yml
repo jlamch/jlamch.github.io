@@ -4,8 +4,8 @@ author: Joanna Lamch
 email: jlamch@gmail.com
 description: Software development; software gardener; development passionate;
 
-baseurl: "/blog"
-url: ""
+baseurl: "jlamch.net" # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: "" #http://localhost:4000/ #the url of your site 
 
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
@@ -163,9 +163,6 @@ social:
 github: https://github.com/jlamch
 medium: https://medium.com
 linkedin: https://www.linkedin.com/in/joannalamch/
-
-baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
-url: http://localhost:4000/ #the url of your site
 
 # Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
 tag_manager_id: # This looks something like GTM-XXXXXXX
