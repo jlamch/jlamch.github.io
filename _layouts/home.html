@@ -49,17 +49,22 @@
 
 <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot container">
+      <div class="blog-portfolio-header">
+        <h1 class="header center purple-text text-lighten-5 jlshadow">Z miłości do kodu</h1>
+        <h3 class="header center purple-text text-lighten-4 light jlshadow">Blogs</h3>
+      </div>
+      <div id="externalblogs" class="section blog-portfolio" >
+          {% include blogs.html %}
+      </div>
       
-        <div class="blog-portfolio-header">
-          <h1 class="header center purple-text text-lighten-5 jlshadow">Z miłości do kodu</h1>
-          <h3 class="header center purple-text text-lighten-4 light jlshadow">Blogs</h3>
-        </div>
-          
-          <div id="externalblogs" class="section blog-portfolio" >
-              {% include blogs.html %}
-          </div>
-
-          </div>
+      <div class="blog-portfolio-header">
+        <h1 class="header center purple-text text-lighten-5 jlshadow">Z miłości do community</h1>
+        <!-- <h3 class="header center purple-text text-lighten-4 light jlshadow">Blogs</h3> -->
+      </div>
+      <div id="externalblogs" class="section blog-portfolio" >
+          {% include community.html %}
+      </div>
+    </div>
     <div class="parallax"><img class="a-little-transparent" src="{{site.parallax_image_two}}" alt="Unsplashed background img 3"></div>
   </div>
 
