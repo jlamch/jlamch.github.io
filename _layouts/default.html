@@ -1,5 +1,28 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html>
 
-  {{content}}
+  {% include head.html %}
 
-{% include footer.html %}
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    {% include blog.html %}
+    {% include about-me.html %}
+    {% include community.html %}
+    {% include speaking.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    
+  </body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.tag_manager_id}}"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  </html>
+  
+<!--   % include portfolio_grid.html %} -->
+  <!-- % include services.html %} -->
+  <!-- % include clients.html %} -->

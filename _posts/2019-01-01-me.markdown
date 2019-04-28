@@ -1,0 +1,13 @@
+---
+title: Joanna Lamch
+subtitle: Website Design
+layout: default
+modal-id: 1
+date: 2019-01-01
+img: JL\Joanna_Lamch_stylish.JPG
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: April 2014
+description: Nie wszędzie mam zdjęcie po którym można mnie poznać, dlatego tutaj można spojrzeć mi w oczy.
+
+---
