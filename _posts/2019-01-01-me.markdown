@@ -4,7 +4,7 @@ subtitle: Website Design
 layout: default
 modal-id: 1
 date: 2019-01-01
-img: JL\Joanna_Lamch_stylish.JPG
+img: ..\JL\Joanna_Lamch_stylish.JPG
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2014

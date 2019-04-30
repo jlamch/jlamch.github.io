@@ -1,6 +1,6 @@
 # orginal style adress https://github.com/y7kim/agency-jekyll-theme
-url: https://jlamch.net
-baseurl: 
+url: https://jlamch.net #https://y7kim.github.io
+baseurl: / # /agency-jekyll-theme/
 
 # Site settings
 title: Joanna Lamch
@@ -45,7 +45,7 @@ people:
   social:
     - title: fab fa-facebook-f
       url: https://www.facebook.com/WiTPoland/
-  
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook-f
