@@ -1,4 +1,12 @@
 <head>
+      {% if jekyll.environment == 'production' %}
+        {% if site.tag_manager_id %}
+          {% include google_tag_manager.html %}
+        {% elsif site.google_analytics_tracking_id %}
+          {% include google_analytics.html %}
+        {% endif %}
+      {% endif %}
+      
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
