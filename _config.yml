@@ -39,12 +39,12 @@ people:
     - title: fab fa-facebook-f
       url: https://www.facebook.com/grubait/
 
-- name: Women in Technology Katowice
-  pic: 3
-  position: Women In Technology to społeczność kobiet, które pracują w technologiach lub je tworzą. Jesteśmy nieformalną grupą kobiet, które w swoim wolnym czasie spotykają się w celu wymiany doświadczeń, wiedzy i opinii.
-  social:
-    - title: fab fa-facebook-f
-      url: https://www.facebook.com/WiTPoland/
+# - name: Women in Technology Katowice
+#   pic: 3
+#   position: Women In Technology to społeczność kobiet, które pracują w technologiach lub je tworzą. Jesteśmy nieformalną grupą kobiet, które w swoim wolnym czasie spotykają się w celu wymiany doświadczeń, wiedzy i opinii.
+#   social:
+#     - title: fab fa-facebook-f
+#       url: https://www.facebook.com/WiTPoland/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
