@@ -584,8 +584,8 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
 }
+/* background-color: #{{ site.data.template.color.primary }}; */
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
@@ -617,6 +617,14 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
+.timeline-heading{    
+  cursor: pointer;
+}
+
+.timeline-heading:hover {
+    background-color: rgb(237, 236, 238);
+}
+  
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
@@ -624,6 +632,10 @@ section h3.section-subheading {
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
+}
+
+.timeline-body{    
+  display: none;
 }
 
 .timeline .timeline-body>p,
