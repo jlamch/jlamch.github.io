@@ -630,7 +630,7 @@ section h3.section-subheading {
 .timeline .timeline-body>ul {
     margin-bottom: 0;
 }
-
+/* 
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
@@ -650,8 +650,8 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image {
         left: 50%;
-        width: 132px;
-        height: 100px;
+        width: 90px;
+        height: 60px;
         margin-left: -68px;
     }
 
@@ -678,8 +678,8 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image {
-        width: 190px;
-        height: 150px;
+        width: 90px;
+        height: 60px;
         margin-left: -85px;
     }
 
@@ -700,12 +700,13 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
+         padding: 0 20px 20px 100px; 
         padding: 0 20px 20px 100px;
     }
 
     .timeline>li .timeline-image {
-        width: 210px;
-        height: 170px;
+        width: 90px;
+        height: 60px;
         margin-left: -105px;
     }
 
@@ -716,7 +717,10 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
-}
+} */
+
+
+
 
 .team-member {
     margin-bottom: 50px;
