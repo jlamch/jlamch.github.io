@@ -59,9 +59,13 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
     text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+}
+
+h5 {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
 }
@@ -631,6 +635,10 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4.subheading {
+    text-transform: none;
+}
+
+.timeline .timeline-heading h5.subheading {
     text-transform: none;
 }
 
