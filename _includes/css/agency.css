@@ -266,6 +266,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
+        background-color: #222;
     }
 
     .navbar-default.navbar-shrink {
