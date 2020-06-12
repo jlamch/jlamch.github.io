@@ -10,7 +10,7 @@
             </div>
             <div class="row">
             {% for post in site.posts %}
-                <div class="col-lg-6 text-center portfolio-item">
+                <div class="col-lg-6 col-md-6 text-center portfolio-item">
                     <a href="{{ post.url-to-go }}" class="portfolio-link" target="_blank" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -18,11 +18,12 @@
                             </div>
                         </div>
                         <img src="img/portfolio/{{ post.img }}" 
-                            class="img-responsive img-centered" alt="">
+                            class="img-responsive img-centered" alt="{{ post.alt }}">
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <p class="text-muted"><b>{{ post.subtitle }}</b></p>                        
+                        <p class="text-muted">{{ post.description }}</p>
                     </div>
                 </div>
             {% endfor %}
