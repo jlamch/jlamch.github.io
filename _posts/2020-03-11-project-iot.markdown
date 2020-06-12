@@ -4,7 +4,7 @@ subtitle: Warsztaty stacjonarne
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: warsztaty-iot-azure.png
+img: warsztat-iot-azure.png
 url-to-go: http://jlamch.net/AzureIoTWorkshop/
 alt: 
 project-date: February 2020

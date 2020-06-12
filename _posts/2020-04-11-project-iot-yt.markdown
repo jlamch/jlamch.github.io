@@ -4,7 +4,7 @@ subtitle: Warsztaty w wersji video
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: warsztaty-iot-azure-ty.png
+img: warsztat-iot-azure-yt.png
 url-to-go: http://jlamch.net/AzureIoTWorkshop/warsztaty-online/
 alt: 
 project-date: February 2020
