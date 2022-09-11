@@ -7,7 +7,7 @@ modal-id: 6
 date: 2014-07-15
 img: sojusznicy.png
 thumbnail: sojusznicy-thumbnail.png
-url-to-go: https://sojusznicywit.pl
+url-to-go: https://jlamch.net/sojusznicywit/
 alt: logo sojusznicy
 project-date: June 2020
 description: 'Jest wiele uprzedzeń, przywilejów, zamkniętych drzwi w IT.
