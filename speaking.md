@@ -1,4 +1,5 @@
 ---
 layout: speakingpage
+title: speaking
 ---
 
